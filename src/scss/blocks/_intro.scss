@@ -1,0 +1,54 @@
+.intro {
+    display: flex;
+    gap: 67px;
+    padding: 49px 58px 85px 96px;
+    justify-content: space-between;
+    align-items: center;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__content-text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 53px;
+    }
+    
+    &__text {
+        text-align: justify;
+        margin: 0;
+    }
+    
+    &__buttons {
+        display: flex;
+        gap: 18px;
+        margin-bottom: 33px;
+    }
+    
+    &__additional-info {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        color: var(--color-opacity-grey);
+        margin: 0;
+    }
+    
+    &__rating {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    &__rating-grade {
+        display: flex;
+        gap: 9px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 96px;
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__content {
+        display: flex;
+        gap: 110px;
+    }
+    
+    &__list {
+        display: flex;
+        list-style: none; 
+        gap: 53px;
+        margin-top: 10px;
+        padding: 0;
+        font-size: 17px;
+        line-height: 26px;
+        font-weight: 500;
+        color: var(--color-menu-text);
+        font-family: "Inter";
+    }
+    
+    &__login {
+        display: flex;
+        gap: 8px;
+    }
+}
+

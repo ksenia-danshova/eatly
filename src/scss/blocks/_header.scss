@@ -1,0 +1,26 @@
+.header {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 90px;
+    margin: 0px;
+
+    &_violet {
+        color: var(--color-intro-accent);
+    }
+    
+    &_small {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 58px;
+    }
+    
+    &_petite {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 25px;
+        color: #323142;
+    }
+}
+

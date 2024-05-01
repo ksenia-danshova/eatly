@@ -1,0 +1,57 @@
+.content {
+     &__card {
+        background-color: var(--color-card-background);
+        border: 1.5px solid var(4.8);
+        border-radius: 30px;
+        box-shadow: 6px 71px 35px #E5E5E5;
+        margin-bottom: 65px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 26px 18px 34px;
+        gap: 2px;
+    }
+    
+    &__sign {
+        background-color: #F7EDD0;
+        color: var(--color-healthy);
+        width: max-content;
+        border-radius: 4px;
+        padding: 3px 6px;
+    }
+    
+    &__text {
+        margin: 0;
+    }
+    
+    &__sign_red {
+        background-color: #F7C5BA;
+        color: var(--color-trending);
+    }
+
+    &__sign_green {
+        background-color: #b7f0ce;
+        color: #319c5c;
+    }
+    
+    &__rating {
+        display: flex;
+    }
+    
+    &__grade {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__naming_small {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 26px;
+        margin: 0;
+    }
+    
+}

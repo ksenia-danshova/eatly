@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eatly</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <header class="navigation">
         <div class="navigation__content">
             <div class="navigation__logo">
-                <img class="logo-image" src="images/Logo.png" alt="Logo Eatly Company">
+                <img class="logo-image" src="public/assets/images/Logo.png" alt="Logo Eatly Company">
             </div>
           
                 <ul class="navigation__list">
@@ -53,15 +53,15 @@
                     <button type="button" class="button button_violet-border">Go Pro</button>
                 </div>
                  <div class="intro__rating">
-                    <div class="intro__rating-logo"><img src="images/trustpilot-1 1.png" alt="Service name"></div>
+                    <div class="intro__rating-logo"><img src="public/assets/images/trustpilot-1 1.png" alt="Service name"></div>
                     <div class="intro__rating-grade">
-                    <img src="images/Star.png" alt="">
-                    <p class="text intro_grade">4900+</p>
+                    <img src="public/assets/images/Star.png" alt="">
+                    <p class="text intro__grade">4900+</p>
                 </div>
             </div>
             </div>
             <div class="intro__image">
-                <img class="image-food" src="images/Food.png" alt="Dishes Food">
+                <img class="image-food" src="public/assets/images/Food.png" alt="Dishes Food">
             </div>
         </section>
         <section class="advantages">
@@ -85,7 +85,7 @@
         <section class="app">
             <div class="app__content">
                 <div class="app__image">
-                    <img src="images/Mobile.png" alt="Mobile App">
+                    <img src="public/assets/images/Mobile.png" alt="Mobile App">
                 </div>
                 <div class="app__content-text">
                     <h2 class="header header_small app__header">Premium <span class="header_violet">Quality </span>For Your Health</h2>
@@ -95,7 +95,225 @@
                             <li class="app__list-item">These foods promote overall wellness by support healthy digestion and boosting immunity</li>
                         </ul>
                     </div>
+                    <div class="app__button-container">
+                        <button type="button" class="button button_violet button_start app__button">Download</button>
+                        <div class="app__image-container">
+                            <img class="app__image-arrow" src="public/assets/images/Arrow on Left.png" alt="Arrow an Left">
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section class="top">
+                <div class="top__title">
+                    <h2 class="header header_petite top__header">Our Top <span class="header_violet">Restaurants</span></h3>
+                </div>
+                <div class="top__content content">
+                    <div class="content__card">
+                        <div class="content__image"><img class="image-content" src="public/assets/images/chiken image.png" alt="chiken"></div>
+                        <div class="content__info">
+                            <div class="content__sign"><p class="content__text">Healthy</p></div>
+                            <h3 class="content__naming title">The Chicken King</h3>
+                            <div class="content__rating">
+                                <p class="text text_no-indentation">24min •</p>
+                                <div class="content__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__card">
+                        <div class="content__image"><img class="image-content" src="public/assets/images/food image (pie).png" alt=""></div>
+                        <div class="content__info">
+                            <div class="content__sign content__sign_red"><p class="content__text">Trending</p></div>
+                            <h3 class="content__naming title">The Burger King</h3>
+                            <div class="content__rating">
+                                <p class="text text_no-indentation">24min •</p>
+                                <div class="content__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__card">
+                        <div class="content__image"><img class="image-content" src="public/assets/images/chiken image.png" alt=""></div>
+                        <div class="content__info">
+                            <div class="content__sign"><p class="content__text">Healthy</p></div>
+                            <h3 class="content__naming title">The Chicken King</h3>
+                            <div class="content__rating">
+                                <p class="text  text_no-indentation">24min •</p>
+                                <div class="content__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top__footer">
+                    <div class="top__button">
+                        <button type="button" class="button button_transparent button_transparent_small">View All</button>
+                    </div>
+                </div>
+            </section>
+            <section class="dishes">
+                <div class="dishes__title">
+                    <h2 class="header header_petite dishes__header">Our Top <span class="header_violet">Dishes</span></h2>
+                </div>
+            <div class="dishes__content">
+                <div class="dishes__card">
+                    <div class="dishes__images">
+                        <img class="dishes__image" src="public/assets/images/Food Image (Fish and Salad).png" alt="Fish and Salad">
+                        <div class="dishes__favourites"> <button type="button" class="dishes__buttons"><img src="public/assets/images/Heart.png" alt="Heart"></button></div>
+                    </div>
+                    <div class="dishes__info">
+                        <div class="content__sign dishes__sign"><p class="content__text dishes__text">Healthy</p></div>
+                            <h3 class="content__naming dishes__naming title">Chicken Hell</h3>
+                            <div class="content__rating">
+                                <p class="text text_no-indentation">24min •</p>
+                                <div class="content__grade dishes__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                            </div>
+                        </div>
+                        <div class="dishes__price">
+                            <div class="dishes__value"><p class="price">$12<span class="price_grey">.99</span></p></div>
+                            <div class="dishes__button"><button class="dishes__buttons" type="button"><img src="public/assets/images/Add.png" alt=""></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dishes__card">
+                    <div class="dishes__images">
+                        <img class="dishes__image" src="public/assets/images/Food Image (Chiken).png" alt="Fish and Salad">
+                        <div class="dishes__favourites"> <button type="button" class="dishes__buttons"><img src="public/assets/images/Heart.png" alt="Heart"></button></div>
+                    </div>
+                    <div class="dishes__info">
+                        <div class="content__sign dishes__sign content__sign_red"><p class="content__text dishes__text">Trending</p></div>
+                            <h3 class="content__naming dishes__naming title">Swe Dish</h3>
+                            <div class="content__rating">
+                                <p class="text text_no-indentation">24min •</p>
+                                <div class="content__grade dishes__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                            </div>
+                        </div>
+                        <div class="dishes__price">
+                            <div class="dishes__value"><p class="price">$12<span class="price_grey">.99</span></p></div>
+                            <div class="dishes__button"><button class="dishes__buttons" type="button"><img src="public/assets/images/Add.png" alt=""></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dishes__card">
+                    <div class="dishes__images">
+                        <img class="dishes__image" src="public/assets/images/Food Image (Fish).png" alt="Fish and Salad">
+                        <div class="dishes__favourites"> <button type="button" class="dishes__buttons"><img src="public/assets/images/Heart.png" alt="Heart"></button></div>
+                    </div>
+                    <div class="dishes__info">
+                        <div class="content__sign dishes__sign content__sign_green"><p class="content__text dishes__text">Healthy</p></div>
+                            <h3 class="content__naming dishes__naming title">Swe Dish</h3>
+                            <div class="content__rating">
+                                <p class="text text_no-indentation">24min •</p>
+                                <div class="content__grade dishes__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                            </div>
+                        </div>
+                        <div class="dishes__price">
+                            <div class="dishes__value"><p class="price">$12<span class="price_grey">.99</span></p></div>
+                            <div class="dishes__button"><button class="dishes__buttons" type="button"><img src="public/assets/images/Add.png" alt=""></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dishes__card">
+                    <div class="dishes__images">
+                        <img class="dishes__image" src="public/assets/images/Food Image (Fish and Salad).png" alt="Fish and Salad">
+                        <div class="dishes__favourites"> <button type="button" class="dishes__buttons"><img src="public/assets/images/Heart.png" alt="Heart"></button></div>
+                    </div>
+                    <div class="dishes__info">
+                        <div class="content__sign dishes__sign"><p class="content__text dishes__text">Healthy</p></div>
+                            <h3 class="content__naming dishes__naming title">Chicken Hell</h3>
+                            <div class="content__rating">
+                                <p class="text text_no-indentation">24min •</p>
+                                <div class="content__grade dishes__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                            </div>
+                        </div>
+                        <div class="dishes__price">
+                            <div class="dishes__value"><p class="price">$12<span class="price_grey">.99</span></p></div>
+                            <div class="dishes__button"><button class="dishes__buttons" type="button"><img src="public/assets/images/Add.png" alt=""></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dishes__card">
+                    <div class="dishes__images">
+                        <img class="dishes__image" src="public/assets/images/Food Image (Chiken).png" alt="Fish and Salad">
+                        <div class="dishes__favourites"> <button type="button" class="dishes__buttons"><img src="public/assets/images/Heart.png" alt="Heart"></button></div>
+                    </div>
+                    <div class="dishes__info">
+                        <div class="content__sign dishes__sign"><p class="content__text dishes__text">Healthy</p></div>
+                            <h3 class="content__naming dishes__naming title">Swe Dish</h3>
+                            <div class="content__rating">
+                                <p class="text text_no-indentation">24min •</p>
+                                <div class="content__grade dishes__grade">
+                                    <img src="public/assets/images/Star (2).png" alt="">
+                                    <p class="text text_no-indentation">4.8</p>
+                        </div>
+                        </div>
+                        <div class="dishes__price">
+                            <div class="dishes__value"><p class="price">$12<span class="price_grey">.99</span></p></div>
+                            <div class="dishes__button"><button class="dishes__buttons" type="button"><img src="public/assets/images/Add.png" alt=""></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dishes__footer">
+                <div class="top__button dishes__footer-button">
+                    <button type="button" class="button button_transparent button_transparent_small">View All</button>
+                </div>
+            </div>
+        </section>
+        <section class="dashboard">
+            <div class="dashboard__info">
+                <div class="dashboard__title">
+                    <h2 class="header header_petite">Control <span class="header_violet">Purchases</span> Via Dashboard</h2>
+                </div>
+                <div class="dashboard__dishes">
+                    <div class="dashboard__card">
+                        <div class="dashboard__image"><img src="public/assets/images/Food Image.png" alt="/"></div>
+                        <div class="dashboard__naming">
+                            <h3 class="content__naming content__naming_small">Chicken Hell</h3>
+                            <p class="dashboard__information">On The Way</p>
+                        </div>
+                        <div class="dashboard__timing"><p class="text_small">3:09 PM</p></div>
+                </div>
+                <div class="dashboard__dishes">
+                    <div class="dashboard__card">
+                        <div class="dashboard__image"><img src="public/assets/images/Food Image.png" alt="/"></div>
+                        <div class="dashboard__naming">
+                            <h3 class="content__naming content__naming_small">Swe Dish</h3>
+                            <p class="dashboard__information">Delivered</p>
+                        </div>
+                        <div class="dashboard__timing"><p class="text_small">Yesterday</p></div>
+                    </div>
+                </div>
+                <div class="dashboard__dishes">
+                    <div class="dashboard__card">
+                        <div class="dashboard__image"><img src="public/assets/images/Food Image (1).png" alt="/"></div>
+                        <div class="dashboard__naming">
+                            <h3 class="content__naming content__naming_small">Fish Hell Veg</h3>
+                            <p class="dashboard__information dashboard__information_red">Canselled</p>
+                        </div>
+                        <div class="dashboard__timing"><p class="text_small">3:09 PM</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard__example example">
+                 <div class="example__title">
+                        <h3 class="title">Purchases</h3>
+                 </div>
             </div>
         </section>
     </main>

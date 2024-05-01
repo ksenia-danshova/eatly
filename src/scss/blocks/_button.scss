@@ -1,0 +1,43 @@
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    padding: 17px 26px;
+    cursor: pointer;
+
+    &_violet {
+        background-color: var(--color-button);
+        border: none;
+        border-radius: 17px;
+        color: var(--color-background-color);
+    }
+    
+    &_violet-border {
+        background: none;
+        border: 1.5px solid var(--color-header-accent);
+        border-radius: 12px;
+        color: var(--color-header-accent);
+        padding: 18px 28px 17px 27px;
+    }
+    
+    &_start {
+        border-radius: 12px;
+        padding: 18px 30px 17px 31px;
+    }
+    
+    &_transparent {
+        border: none;
+        background: none;
+        color: var(--color-menu-text);
+        padding: 17px 26px;
+    }
+    
+    &_transparent_small {
+        color: #ACADB9;
+        font-weight: 500;
+        line-height: 45px;
+        font-size: 20px;
+        padding: 0;
+    }
+}
