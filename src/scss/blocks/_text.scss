@@ -1,21 +1,19 @@
 .text {
-    font-family: "Inter";
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--color-page-text);
+
+  &_no-indentation {
+    margin: 0;
+  }
+
+  &_small {
+    font-family: "Poppins";
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: var(--color-page-text);
-
-    &_no-indentation {
-        margin: 0;
-    }
-
-    &_small {
-        font-family: 'Poppins';
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 18px;
-        color: #ACADB9;
-    }
+    font-size: 13px;
+    line-height: 18px;
+    color: #acadb9;
+  }
 }
-
-

@@ -1,19 +1,19 @@
-@use 'variables';
-@use 'reset';
+@use "variables";
+@use "reset";
 
-@use 'blocks/button';
-@use 'blocks/text';
-@use 'blocks/title';
-@use 'blocks/header';
-@use 'blocks/navigation';
-@use 'blocks/intro';
-@use 'blocks/advantages';
-@use 'blocks/app';
-@use 'blocks/top';
-@use 'blocks/dishes';
-@use 'blocks/content';
-@use 'blocks/price';
-@use 'blocks/image';
-@use 'blocks/dashboard';
-
-@use 'other';
+@use "blocks/button";
+@use "blocks/text";
+@use "blocks/title";
+@use "blocks/header";
+@use "blocks/navigation";
+@use "blocks/intro";
+@use "blocks/advantages";
+@use "blocks/app";
+@use "blocks/top";
+@use "blocks/dishes";
+@use "blocks/content";
+@use "blocks/price";
+@use "blocks/image";
+@use "blocks/dashboard";
+@use "blocks/example";
+@use "blocks/reviews";
