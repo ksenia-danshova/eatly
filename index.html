@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eatly</title>
-    <link rel="stylesheet" href="public/css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +20,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="public/css/main.css" />
   </head>
   <body>
     <header class="navigation">
@@ -577,7 +577,6 @@
         </div>
       </section>
       <section class="reviews">
-        <div class="reviews__line"></div>
         <div class="reviews__title">
           <h2 class="header header_petite">
             <span class="header_violet">Customer </span>Say
@@ -766,7 +765,35 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-scrollbar"></div>
+            <div class="swiper-scrollbar reviews__scrollbar"></div>
+          </div>
+        </div>
+      </section>
+      <section class="email">
+        <div class="email__container">
+          <div class="email__content">
+            <h2 class="email__title">GET 50%</h2>
+            <div class="input__container">
+              <form action="">
+                <label for="email">
+                  <input
+                    placeholder=" Enter Your Email Address"
+                    class="email__input"
+                    type="email"
+                  />
+                </label>
+              </form>
+              <button type="button" class="button button_violet email__button">
+                SUBSCRIBE
+              </button>
+            </div>
+          </div>
+          <div class="email__images">
+            <img
+              class="email__image"
+              src="public/assets/images/Food Image (2).png"
+              alt=""
+            />
           </div>
         </div>
       </section>

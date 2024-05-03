@@ -1,0 +1,21 @@
+.customer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  &__name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    font-family: "Poppins";
+  }
+
+  &__information {
+    align-self: center;
+  }
+
+  &__info {
+    margin: 0;
+  }
+}

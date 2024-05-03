@@ -1,0 +1,62 @@
+.email {
+  padding: 90px 96px 90px 103px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6c5fbc;
+    background-image: url(/public/assets/images/Background.png);
+    border-radius: 30px;
+    padding: 37px 66px;
+  }
+
+  &__title {
+    font-family: "Poppins";
+    color: #e9e7fa;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0;
+  }
+
+  &__input {
+    border: none;
+    background-color: #e9e7fa;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #878787;
+    outline: none;
+  }
+
+  &__button {
+    color: #f1f0f0;
+    border-radius: 11px;
+    background-color: #6c5fbc;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__images {
+    position: relative;
+  }
+
+  &__image {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+}
+
+.input__container {
+  display: flex;
+  padding: 0px 6px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9e7fa;
+  width: 440px;
+  height: 68px;
+  border-radius: 14px;
+}

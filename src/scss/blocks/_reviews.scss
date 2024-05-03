@@ -1,6 +1,5 @@
 .reviews {
-  padding: 0 103px;
-  border-top: 1px solid #cbcbcb;
+  padding: 80px 103px;
 
   &__title {
     text-align: center;
@@ -57,31 +56,5 @@
 
   &__swiper {
     flex-grow: 1;
-  }
-
-  .swiper-scrollbar {
-    width: calc(100% - 103px) !important;
-  }
-}
-
-.customer {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  &__name {
-    margin: 0;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 31px;
-    font-family: "Poppins";
-  }
-
-  &__information {
-    align-self: center;
-  }
-
-  &__info {
-    margin: 0;
   }
 }
