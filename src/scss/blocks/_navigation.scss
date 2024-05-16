@@ -4,6 +4,10 @@
   align-items: center;
   padding: 48px 96px;
 
+  @media (max-width: 1200px) {
+    padding: 40px 68px;
+  }
+
   &__logo {
     display: flex;
     justify-content: center;
@@ -13,6 +17,10 @@
   &__content {
     display: flex;
     gap: 110px;
+
+    @media (max-width: 1200px) {
+      gap: 73px;
+    }
   }
 
   &__list {
@@ -26,10 +34,27 @@
     font-weight: 500;
     color: var(--color-menu-text);
     font-family: "Inter";
+
+    @media (max-width: 760px) {
+      display: none;
+    }
+  }
+
+  &__link {
+    @media (max-width: 1200px) {
+      font-family: "Inter";
+      font-size: 12px;
+      line-height: 19px;
+      color: #606060;
+    }
   }
 
   &__login {
     display: flex;
     gap: 8px;
+
+    @media (max-width: 760px) {
+      display: none;
+    }
   }
 }

@@ -6,6 +6,12 @@
   padding: 17px 26px;
   cursor: pointer;
 
+  @media (max-width: 1200px) {
+    font-size: 12px;
+    line-height: 19px;
+    padding: 12px 19px;
+  }
+
   &_violet {
     background-color: var(--color-button);
     border: none;
@@ -19,11 +25,28 @@
     border-radius: 12px;
     color: var(--color-header-accent);
     padding: 18px 28px 17px 27px;
+
+    @media (max-width: 1200px) {
+      width: 90px;
+      height: 41px;
+      padding: 12px 21px;
+      font-size: 11px;
+      line-height: 17px;
+      letter-spacing: 1%;
+      border-radius: 8px;
+    }
   }
 
   &_start {
     border-radius: 12px;
     padding: 18px 30px 17px 31px;
+
+    @media (max-width: 1200px) {
+      width: 110px;
+      height: 41px;
+      padding: 12px 21px;
+      border-radius: 8px;
+    }
   }
 
   &_transparent {
@@ -31,6 +54,10 @@
     background: none;
     color: var(--color-menu-text);
     padding: 17px 26px;
+
+    @media (max-width: 1200px) {
+      padding: 12px 19px;
+    }
   }
 
   &_transparent_small {

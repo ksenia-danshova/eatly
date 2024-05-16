@@ -1,0 +1,73 @@
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  padding: 17px 26px;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .button {
+    font-size: 12px;
+    line-height: 19px;
+    padding: 12px 19px;
+  }
+}
+.button_violet {
+  background-color: var(--color-button);
+  border: none;
+  border-radius: 17px;
+  color: var(--color-background-color);
+}
+.button_violet-border {
+  background: none;
+  border: 1.5px solid var(--color-header-accent);
+  border-radius: 12px;
+  color: var(--color-header-accent);
+  padding: 18px 28px 17px 27px;
+}
+@media (max-width: 1200px) {
+  .button_violet-border {
+    width: 90px;
+    height: 41px;
+    padding: 12px 21px;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 1%;
+    border-radius: 8px;
+  }
+}
+.button_start {
+  border-radius: 12px;
+  padding: 18px 30px 17px 31px;
+}
+@media (max-width: 1200px) {
+  .button_start {
+    width: 110px;
+    height: 41px;
+    padding: 12px 21px;
+    border-radius: 8px;
+  }
+}
+.button_transparent {
+  border: none;
+  background: none;
+  color: var(--color-menu-text);
+  padding: 17px 26px;
+}
+@media (max-width: 1200px) {
+  .button_transparent {
+    padding: 12px 19px;
+  }
+}
+.button_transparent_small {
+  color: #acadb9;
+  font-weight: 500;
+  line-height: 45px;
+  font-size: 20px;
+  padding: 0;
+}
+
+body {
+  color: red;
+}/*# sourceMappingURL=main2.css.map */

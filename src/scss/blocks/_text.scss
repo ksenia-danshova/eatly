@@ -5,6 +5,11 @@
   line-height: 28px;
   color: var(--color-page-text);
 
+  @media (max-width: 1200px) {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
   &_no-indentation {
     margin: 0;
   }

@@ -5,6 +5,17 @@
   line-height: 90px;
   margin: 0px;
 
+  @media (max-width: 1200px) {
+    font-size: 53px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+
+  @media (max-width: 760px) {
+    font-size: 46px;
+    line-height: 55px;
+  }
+
   &_violet {
     color: var(--color-intro-accent);
   }
@@ -27,3 +38,25 @@
     color: #18181b;
   }
 }
+
+//  &_violet {
+//   color: var(--color-intro-accent);
+// }
+
+// &_small {
+//   font-weight: 700;
+//   font-size: 50px;
+//   line-height: 58px;
+// }
+
+// &_petite {
+//   font-family: "Poppins";
+//   font-weight: 600;
+//   font-size: 45px;
+//   line-height: 55px;
+//   color: #323142;
+// }
+
+// &_dark {
+//   color: #18181b;
+// }

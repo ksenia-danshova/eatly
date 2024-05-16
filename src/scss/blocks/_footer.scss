@@ -1,0 +1,38 @@
+.footer {
+  padding: 96px 90px 103px 96px;
+  background-color: #eaeaea;
+
+  &__main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom: 30px;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    color: #999999;
+  }
+
+  &__link-style {
+    color: #999999;
+  }
+
+  &__text {
+    font-family: "Inter";
+    color: #999999;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+  }
+}
